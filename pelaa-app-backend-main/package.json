@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "PlaygroundApp Backend API - Find sports playgrounds nearby",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
