@@ -1,5 +1,6 @@
 {
   "name": "playgroundapp-backend",
+  "type": "module",
   "version": "1.0.0",
   "description": "PlaygroundApp Backend API - Find sports playgrounds nearby",
   "main": "index.js",
