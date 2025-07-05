@@ -1,6 +1,7 @@
 
 import express from 'express';
-import { getAllGrounds, searchGrounds, getNearbyPlace } from '../controllers/place.js';
+import { getAllGrounds, searchGrounds, getNearbyPlace } from '../controllers/place.cjs';
+
 
 const router = express.Router();
 
