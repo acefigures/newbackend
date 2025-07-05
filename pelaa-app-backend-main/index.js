@@ -64,7 +64,7 @@ const runMain = async () => {
   });
 
   // Start server
-  app.listen(port, "0.0.0.0", () => {
+  app.listen(port, () => {
     console.log(`🚀 PlaygroundApp API running on port ${port}`);
     console.log(`📍 Environment: ${process.env.NODE_ENV || 'development'}`);
     console.log(`🌐 Access at: http://0.0.0.0:${port}`);
